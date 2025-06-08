@@ -31,6 +31,8 @@ A comprehensive console-based exam management system written in C that allows ad
 
 - **Operating System**: Linux/Unix (uses POSIX terminal functions)
 - **Compiler**: GCC (GNU Compiler Collection), make
+(command for mac : \`\`\`xcode-select --install\`\`\`, command for windows or linux : \`\`\`sudo apt update
+sudo apt install build-essential\`\`\`)
 - **Libraries**: Standard C libraries (stdio.h, stdlib.h, string.h, time.h, unistd.h, termios.h, ctype.h)
 
 ## Installation

@@ -62,7 +62,7 @@ sudo apt install build-essential\`\`\`)
 
 3. **Run the application in bash**
    \`\`\`
-   ./exam_system
+   ./src/exam_system
    \`\`\`
 
 ## Usage

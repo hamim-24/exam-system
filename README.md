@@ -51,17 +51,17 @@ sudo apt install build-essential\`\`\`)
    
    #### Or compile manually
    gcc -Wall -Wextra -std=c99 -g -o exam_system \
-    main.c \
-    structures.c \
-    utils.c \
-    menu.c \
-    admin.c \
-    exam.c \
-    student.c
+   src/main.c \
+   src/structures.c \
+   src/utils.c \
+   src/menu.c \
+   src/admin.c \
+   src/exam.c \
+   src/student.c
    \`\`\`
 
-3. **Run the application**
-   \`\`\`bash
+3. **Run the application in bash**
+   \`\`\`
    ./exam_system
    \`\`\`
 

@@ -285,7 +285,7 @@ void exam_system(char id[30]) {
     printf("\n 5. After answering, press enter for the next question.");
     printf("\n 6. To skip, just press enter."); 
     printf("\n 7. Find result in result option after publishing.");
-    printf("\n 8. You will be notified through notices."); 
+    printf("\n 8. You will be notified through notices.\n"); 
 
     ending();
     loading("Loading", "Question is loaded.");

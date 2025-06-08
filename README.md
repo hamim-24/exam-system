@@ -47,7 +47,7 @@ sudo apt install build-essential\`\`\`)
 2. **Compile the project**
    \`\`\`bash
    #### Using the provided Makefile
-   make
+   \`\`\`make\`\`\`
    
    #### Or compile manually
    gcc -Wall -Wextra -std=c99 -g -o exam_system \
@@ -61,8 +61,10 @@ sudo apt install build-essential\`\`\`)
    \`\`\`
 
 3. **Run the application in bash**
+
+   Direct run
    \`\`\`
-   ./src/exam_system
+   ./exam_system
    \`\`\`
 
 ## Usage

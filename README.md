@@ -127,6 +127,8 @@ exam-management-system/
 ├── exam.c              # Exam management implementation
 ├── student.h           # Student functions header
 ├── student.c           # Student functions implementation
+├── structure.h         # Stuctures declaration header 
+├── structure.c         # Stuctures declaration implementation
 ├── Makefile            # Build configuration
 ├── README.md           # This file
 └── data/               # Generated data files (created at runtime)

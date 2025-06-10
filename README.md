@@ -38,18 +38,20 @@ sudo apt install build-essential\`\`\`)
 ## Installation
 
 1. **Clone or download the project files**
-   \`\`\`bash
    ### If using git
+   ```bash
    git clone <repository-url>
-   cd exam-management-system
-   \`\`\`
+   cd exam-system
+   ```
 
 2. **Compile the project**
-   \`\`\`bash
    #### Using the provided Makefile
-   \`\`\`make\`\`\`
+   ```
+   make
+   ```
    
    #### Or compile manually
+   ```
    gcc -Wall -Wextra -std=c99 -g -o exam_system \
    src/main.c \
    src/structures.c \
@@ -58,14 +60,14 @@ sudo apt install build-essential\`\`\`)
    src/admin.c \
    src/exam.c \
    src/student.c
-   \`\`\`
+   ```
 
 3. **Run the application in bash**
 
    Direct run
-   \`\`\`
+   ```
    ./exam_system
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -113,7 +115,7 @@ sudo apt install build-essential\`\`\`)
    - Automatically publishes results
 
 ## File Structure
-<pre>
+
 ```
 exam-management-system/
 ├── main.c              # Main application entry point 
@@ -145,7 +147,7 @@ exam-management-system/
     ├── \{questionCode\}Result.txt
     └── \{studentId\}Info.txt
 ```
-</pre>
+
 ## Default Credentials
 
 - **Admin Names**: \`rabin\`, \`alex\`
@@ -177,16 +179,21 @@ The system creates and manages several data files:
 
 ## Building and Cleaning
 
-\`\`\`bash
+
 ### Build the project
-make
+```
+ make 
+```
 
 ### Clean object files and executable
+```
 make clean
+```
 
 ### Force rebuild
+```
 make clean && make
-\`\`\`
+```
 
 ## Troubleshooting
 

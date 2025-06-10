@@ -40,7 +40,7 @@ sudo apt install build-essential\`\`\`)
 1. **Clone or download the project files**
    ### If using git
    ```bash
-   git clone [<repository-url>](https://github.com/hamim-24/exam-system.git)
+   git clone https://github.com/hamim-24/exam-system.git
    cd exam-system
    ```
 
